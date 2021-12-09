@@ -1,0 +1,69 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+                            "header k d m rk dm c"
+                            "header v w e rk dm c"
+                            "n v w e rk dm c"
+                            "n r g q rk dm c";
+    grid-gap: 10px;
+    grid-template-columns: 16% 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr;                         
+}
+.h{
+    background-color: aqua;
+    grid-area: h;
+}
+.n{
+    background-color: blue;
+    grid-area: n;
+    height: 200px;
+}
+.k{
+    background-color: blueviolet;
+    grid-area: k;
+}
+.d{
+    background-color: chartreuse;
+    grid-area: d;
+}
+.m{
+    background-color: crimson;
+    grid-area: m;
+}
+.rk{
+    background-color: darkgreen;
+    grid-area: rk;
+}
+.dm{
+    background-color: deeppink;
+    grid-area: dm;
+}
+.c{
+    background-color: gold;
+    grid-area: c;
+}
+.v{
+    background-color: indianred;
+    grid-area: v;
+}
+.w{
+    background-color: lightcoral;
+    grid-area: w;
+    height: 200px;
+}
+.e{
+    background-color: olive;
+    grid-area: e;
+}
+.r{
+    background-color: red;
+    grid-area: r;
+}
+.g{
+    background-color: turquoise;
+    grid-area: g;
+}
+.q{
+    background-color: lemonchiffon;
+    grid-area: q;
+}
